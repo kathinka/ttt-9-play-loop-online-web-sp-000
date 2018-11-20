@@ -36,10 +36,12 @@ def turn(board)
 end
 
 # Define your play method below
-counter = 0
+
 def play(board)
- until counter = 9
+  counter = 0
+ until counter == 9
   turn(board)
+  puts "hi #{counter}"
   counter =+ 1
   end
 end
